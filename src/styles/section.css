@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    color: #20313f;
+}
+#intro_sect{
+    padding: 300px;
+    text-align: center;
+    height: 40vh;
+}
+#intro_sect h1{
+    font-size: 60pt;
+    margin-bottom: 10px;
+}
+#intro_sect p{
+    font-size: 20pt;
+}
+#compativility_sect{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 35vw;
+    height: 20vh;
+}
+#compativility_sect .item_comp{
+    margin: auto;
+    height: 14vh;
+    width: 7vw;
+    border-radius: 100px;
+    background-color: #0ffff8;
+}
+.item_comp img{
+    width: 7vw;
+    height: 14vh;
+}
+#download_sect{
+    background-color: #ebeef3 ;
+    height: 88vh;
+    text-align: center;
+    font-size: 35pt;
+}
+#download_sect h1{
+    margin-top: 70px;
+}
+#download_sect img{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 50vw;
+    border-radius: 5px;
+}
+#btn_download{
+    margin: auto;
+    margin-top: 0px;
+    width: 10vw;
+    height: 5vh;
+    background-color: #ff0066;
+    border: #ff0066;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 11pt;
+    -webkit-transition:background 0.3s ease-in-out,border-radius,font-size 0.3s;
+	-moz-transition:background 0.3s ease-in-out,border-radius,font-size 0.3s;
+	transition:background-color 0.3s ease-in-out,border-radius,font-size 0.3s;
+}
+
+#btn_download:hover{
+    border: 2px solid #ff0066;
+    background-color: #ebeef3;
+    color: #ff0066;
+    font-size: 13pt;
+    -webkit-transition:background 0.3s ease-in-out,border-radius,font-size 0.3s;
+	-moz-transition:background 0.3s ease-in-out,border-radius,font-size 0.3s;
+	transition:background-color 0.3s ease-in-out,border-radius,font-size 0.3s;
+}
+
+#dts_sect{
+    display: flex;
+    flex-direction: row;
+    height: 88vh;
+}
+.dts_conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    height: 45vh;
+    width: 18vw;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgba(211, 211, 211, 0.493);
+    -webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.dts_conteiner:hover{
+    height: 48vh;
+    width: 19vw;
+    border: 3px solid #ff0066;
+    border-radius: 15px;
+    -webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.dts_conteiner img{
+    width: 9vw;
+    height: 17vh;
+}
+.dts_conteiner button{
+    margin-top: 20px;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#btn_mysql{
+    background-color: #0069a7;
+}
+#btn_filezilla{
+    background-color: #e3173b;
+}
+#btn_apache{
+    background-color: #423362;
+}
+#contact_sect{
+    height: 88vh;
+    background-color: #ded2c4;
+}
+#contact_cont{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Shadow{
+    box-shadow: 10px 5px 5px  #b7c2ce;
+}
