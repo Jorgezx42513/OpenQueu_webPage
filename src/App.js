@@ -6,6 +6,7 @@ import  {Download} from './components/dowload_sect.jsx'
 import {Intro} from './components/intro'
 import {Contact} from './components/contact'
 import {Footer} from './components/footer'
+import {Header_alt} from './components/header_alt'
 
 export default function App() {
   return (

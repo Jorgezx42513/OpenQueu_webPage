@@ -144,7 +144,59 @@ section{
     width: 500px;
     border-radius: 10px;
     padding: 20px;
+    text-align: center;
 }
+#contact_cont h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25pt;
+}
+#contact_cont input{
+    border: 1px solid #20313f;
+    height: 4vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+#contact_cont textarea{
+    height: 20vh;
+    margin-bottom: 20px;
+    border: 1px solid #20313f;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#contact_cont button{
+    height: 5vh;
+    width: 10vw;
+    margin: auto;
+}
+.effect-2 {
+    transition: all 0.2s linear 0s;
+  }
+ .effect-2:before {
+    content: "💘";
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0px 6px 6px 0px;
+    transition: all 0.2s linear 0s;
+    text-align: center;
+  }
+  .effect-2:hover {
+    text-indent: -30px;
+  }
+  .effect-2:hover:before {
+    right: 0;
+    text-indent: 0px;
+  }
 .Shadow{
     box-shadow: 10px 5px 5px  #b7c2ce;
 }

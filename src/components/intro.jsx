@@ -7,7 +7,7 @@ export function Intro() {
   return (
     <section id='intro_sect'>
         <h1>Wha is OpenQueu?</h1>
-        <p>openqueuu is an app to server developers, 
+        <p>Openqueu is an app to server developers, 
           include open port servises of mysql server and the possibility to use dis in different sistemswith github, 
           apache open port servises and filezilla servises.</p>
           <div id='compativility_sect'>

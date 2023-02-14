@@ -7,7 +7,9 @@ export  function Download() {
     <section id='download_sect'>
         <h1>Download Now !</h1>
         <img src={logo} alt='app'/>
-        <button id='btn_download'>Download</button>
+        <a href="https://github.com/Jorgezx42513/OpenQueu.git">
+          <button id='btn_download'>Download</button>
+        </a>
     </section>
   )
 }

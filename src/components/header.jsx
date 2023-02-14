@@ -4,8 +4,10 @@ import '../styles/section.css'
 
 export function Header() {
   return (
-    <header>
-      <h1>OpwnQueu</h1>
+    <header id='header_ini'>
+      <a href="">
+        <h1>OpenQueu</h1>
+      </a>
        <ul>
         <li>
           <a href='#intro_sect'>
